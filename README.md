@@ -31,15 +31,15 @@
 
 В root директорията, където е Dockerfile  се стартира
 
-<code> docker build -t star-api .  </code> # създава image, ползвайки Dockerfile от текущата директория
+<code> docker build -t star-api .  </code>  създава image, ползвайки Dockerfile от текущата директория
 
-docker run -d --name star-api-container -p 8000:8000 star-api # създава и стартира контейнер в detached режим
+<code>docker run -d --name star-api-container -p 8000:8000 star-api</code> създава и стартира контейнер в detached режим
 
 FastApi поддържа Swagger UI, приложението може да бъде достъпено на адрес: http://127.0.0.1:8000/docs#
 
-docker exec -it star-api-container /bin/bash # достъп до контейнера с шел
+<code>docker exec -it star-api-container /bin/bash</code> достъп до контейнера с шел
 
-pytest # стартиране на юнит тестове
+<code>pytest</code> - стартиране на юнит тестове
 
 
 
