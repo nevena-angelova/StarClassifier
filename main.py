@@ -7,6 +7,7 @@ app = FastAPI(title="Star Classifier API")
 
 model = joblib.load("model/star_model.pkl")
 
+# Mapping of class indices to star types
 CLASS_NAMES = {
     0: "Brown Dwarf",
     1: "Red Dwarf",
@@ -23,7 +24,7 @@ class StarInput(BaseModel):
     absolute_magnitude: float
     spectral_class: str = Field(..., pattern="^[OBAFGKM]$")
 
-
+# Endpoint to predict star type
 @app.post("/predict")
 def predict_star_type(star: StarInput):
     try:

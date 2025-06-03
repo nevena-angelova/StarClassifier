@@ -29,6 +29,25 @@
 
 ## Стартиране на проекта:
 
+1. Локално
+
+- Създава се исе активира виртуална среда(по избор):
+
+<code>
+python3 -m venv venv
+source venv/bin/activate
+</code>
+
+- Инсталиране на зависимостите
+
+<code>pip install -r requirements.txt</code>
+
+ - Стартиране на приложението:
+
+<code>uvicorn main:app --reload</code>
+
+2. Docker container
+
 В root директорията, където е Dockerfile  се стартира
 
 <code> docker build -t star-api .  </code>  създава image, ползвайки Dockerfile от текущата директория
