@@ -31,7 +31,7 @@
 
 В root директорията, където е Dockerfile  се стартира
 
-docker build -t star-api . # създава image, ползвайки Dockerfile от текущата директория
+<code> docker build -t star-api .  </code> # създава image, ползвайки Dockerfile от текущата директория
 
 docker run -d --name star-api-container -p 8000:8000 star-api # създава и стартира контейнер в detached режим
 
