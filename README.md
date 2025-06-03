@@ -13,11 +13,11 @@
 
 По параметри:
 
-Temperature (Температура на звездата (Kелвин))
-Luminosity (Спрямо Слънцето)
-Radius (Спрямо Слънцето)
-Absolute Magnitude (Абсолютна звездна величина)
-Spectral Class (Категория: O, B, A, F, G, K, M)
+- Temperature (Температура на звездата (Kелвин))
+- Luminosity (Спрямо Слънцето)
+- Radius (Спрямо Слънцето)
+- Absolute Magnitude (Абсолютна звездна величина)
+- Spectral Class (Категория: O, B, A, F, G, K, M)
 
 ## Ползвани са следните технологии:
 
