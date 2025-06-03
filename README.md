@@ -51,7 +51,7 @@
 
 <code> docker build -t star-api .  </code>  
 
-- създава и стартира контейнер в detached режим
+- Създава и стартира контейнер в detached режим
 
 <code>docker run -d --name star-api-container -p 8000:8000 star-api</code>
 
