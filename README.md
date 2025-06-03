@@ -34,6 +34,7 @@
 - Създава и се активира виртуална среда:
 
 <code>python3 -m venv venv</code>
+
 <code>source venv/bin/activate</code>
 
 - Инсталиране на зависимостите
